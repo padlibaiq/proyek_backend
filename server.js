@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const port = 3001; // Ganti dengan port yang Anda inginkan
-mongoose.connect('mongodb://127.0.0.1/test', {
+mongoose.connect('mongodb+srv://fadlimuzaki:Sandi27@cluster0.zpyoztr.mongodb.net/UAS?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
