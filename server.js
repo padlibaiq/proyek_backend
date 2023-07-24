@@ -2,7 +2,7 @@ const cors = require("cors");
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const port = 3001; // Ganti dengan port yang Anda inginkan
 mongoose.connect('mongodb://127.0.0.1/test', {
